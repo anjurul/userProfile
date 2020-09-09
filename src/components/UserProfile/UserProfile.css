@@ -1,0 +1,8 @@
+.users-container{
+    display: flex;
+}
+.users{
+    width: 80%;
+    padding: 5px;
+    border-right: 1px solid lightgrey;
+}

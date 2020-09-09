@@ -1,0 +1,43 @@
+.cart p{
+    
+    background: linear-gradient(to left, rgba(79, 172, 254, .3),
+                                          rgba(0, 242, 254, .3));
+    color: brown;
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 2.5rem 3rem;
+    padding: 1rem;
+}
+p:nth-child(1){
+    background-image: linear-gradient(to right, tomato, chocolate 100%);
+    color: white;
+    text-transform: uppercase;
+    font-style: inherit;
+}
+p:nth-last-child(1){
+    background-image: linear-gradient(to right, tomato, chocolate 100%);
+    color: white;
+    text-transform: uppercase;
+    font-style: inherit;
+}
+
+@media screen and (max-width: 868px) {
+    .user-cart{
+       max-width: 70rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cart{
+       /* max-width: 70rem; */
+       padding: 2.5rem;
+       flex-direction: column;
+    }
+    /* .cart p{
+        min-width: 100%;
+        max-width: 100%;
+        transform: translate(0, -5rem);
+    } */
+}
+    
